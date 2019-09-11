@@ -4,3 +4,4 @@
 3-listfiles: ls -l
 4-listmorefiles: ls -la
 5-listfilesdigitonly: ls -lan
+6-firstdirectory: mkdir /tmp/holberton
