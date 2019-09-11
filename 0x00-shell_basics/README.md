@@ -10,3 +10,4 @@
 9-firstdirdeletion: rmdir tmp/holberton
 10-back: cd ..
 11-lists: ls -la /boot/
+12-file_type: file /tmp/imafile
