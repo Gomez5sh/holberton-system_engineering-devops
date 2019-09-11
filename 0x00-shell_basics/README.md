@@ -8,3 +8,4 @@
 7-movethatfile: mv  tmp/betty tmp/holberton/betty
 8-firstdelete: rm tmp/holberton/betty
 9-firstdirdeletion: rmdir tmp/holberton
+10-back: cd ..
