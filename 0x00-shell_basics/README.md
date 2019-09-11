@@ -3,4 +3,4 @@
 2-bring_me_home: cd
 3-listfiles: ls -l
 4-listmorefiles: ls -la
-5-listfilesdigitonly: ls -lia
+5-listfilesdigitonly: ls -lan
