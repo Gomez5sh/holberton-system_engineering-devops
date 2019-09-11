@@ -5,3 +5,6 @@
 4-listmorefiles: ls -la
 5-listfilesdigitonly: ls -lan
 6-firstdirectory: mkdir /tmp/holberton
+7-movethatfile: mv  tmp/betty tmp/holberton/betty
+8-firstdelete: rm tmp/holberton/betty
+9-firstdirdeletion: rmdir tmp/holberton
