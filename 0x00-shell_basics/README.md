@@ -9,3 +9,4 @@
 8-firstdelete: rm tmp/holberton/betty
 9-firstdirdeletion: rmdir tmp/holberton
 10-back: cd ..
+11-lists: ls -la /boot/
