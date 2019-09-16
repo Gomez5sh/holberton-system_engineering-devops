@@ -9,3 +9,4 @@ This file contains the information of the this git repo, and the commands use in
 7. 6-create_local_variable: BETTY=Holberton
 8. 7-create_global_variable: export HOLBERTON="Betty"
 9. 8-true_knowledge: echo $(($TRUEKNOWLEDGE + 128))
+10. 9-divide_and_rule: echo $(($POWER \ $DIVIDE))
