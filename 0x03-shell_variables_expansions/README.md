@@ -12,4 +12,6 @@ This file contains the information of the this git repo, and the commands use in
 10. 9-divide_and_rule: echo $(($POWER/$DIVIDE))
 11. 10-love_exponent_breath: echo $(($BREATH**$LOVE))
 12. 11-binary_to_decimal: echo $((2#$BINARY))
-13 12-combinations: printf "%b\n" {a..z} {a..z} | grep -v | grep -v "oo"
+13. 12-combinations: printf "%b\n" {a..z}{a..z} | grep -v "oo"
+14. 13-print_float: printf "%.2f\n" $(($NUM))
+15. 14-decimal_to_hexadecimal
