@@ -10,3 +10,4 @@ This file contains the information of the this git repo, and the commands use in
 8. 7-create_global_variable: export HOLBERTON="Betty"
 9. 8-true_knowledge: echo $(($TRUEKNOWLEDGE + 128))
 10. 9-divide_and_rule: echo $(($POWER \ $DIVIDE))
+11. 10-love_exponent_breath: echo $(($BREATH ** $LOVE))
