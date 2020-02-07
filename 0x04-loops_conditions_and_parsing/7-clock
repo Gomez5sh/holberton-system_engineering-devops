@@ -6,7 +6,7 @@ while [[ $n -le 12 ]]; do
     echo "Hour: $n"
     x=0
     while [[ $x -lt 60 ]]; do
-	echo "$x"
+	echo $x
 	x=$((x += 1))
     done
     n=$((n += 1))
