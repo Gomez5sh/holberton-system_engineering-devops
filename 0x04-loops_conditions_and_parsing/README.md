@@ -1,6 +1,6 @@
-#0x04. Loops, conditions and parsing
+# 0x04. Loops, conditions and parsing
 
-##General
+## General
 
 Allowed editors: vi, vim, emacs
 All your files will be interpreted on Ubuntu 14.04 LTS
