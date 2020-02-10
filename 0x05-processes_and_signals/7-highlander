@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Highlander
 trap sigtrap 15
-sigtramp(){
+sigtrap(){
     echo "I am invincible!!!"
 }
 n=0
