@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Highlander
+trap sigtrap 15
+sigtramp(){
+    echo "I am invincible!!!"
+}
+n=0
+while [[ $n -le 1 ]]; do
+    echo "To infinity and beyond"
+    sleep 2
+done
