@@ -3,5 +3,6 @@
 sudo apt-get update -y
 sudo apt-get install nginx -y
 echo "Holberton School for the win!" > /var/www/html/index.nginx-debian.html
-sudo sed -i "/^\tlocation \// i\ \tlocation /redirect_me {\n\t\treturn 301 https://virteip.tech;\n\t}" /etc/nginx/sites-enabled/default
+new_string="server_name _;\n\trewrite ^\/redirect_me google.com permanent;"
+sed -i "s/server_name _;/$new_string/" /etc/nginx/sites-enabled/default
 service nginx start
