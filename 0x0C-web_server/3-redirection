@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Configuring the Nginx server so that /redirect_me is redirecting to another page
+sudo apt-get update -y
+sudo apt-get install nginx -y
+echo "Holberton School for the win!" > /var/www/html/index.nginx-debian.html
+sudo sed -i "/^\tlocation \// i\ \tlocation /redirect_me {\n\t\treturn 301 https://virteip.tech;\n\t}" /etc/nginx/sites-enabled/default
+service nginx start
