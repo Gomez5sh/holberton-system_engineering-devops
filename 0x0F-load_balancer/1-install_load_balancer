@@ -15,6 +15,8 @@ backend http_back
    server 1211-web-01 35.196.106.109:80 check
    server 1211-web-02 54.196.186.129:80 check
 "
-echo "$CONF" >> /etc/haproxy/haproxy.cfg | echo "ENABLE=1" >> /etc/default/haproxy
+echo "$CONF" >> /etc/haproxy/haproxy.cfg
 
-sudo service haproxy start
+echo "ENABLE=1" >> /etc/default/haproxy
+
+service haproxy start
