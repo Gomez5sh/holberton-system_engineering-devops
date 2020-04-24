@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# Dump in .tgz and .sql files
-dia="$(date +%d)"
-mes="$(date +%m)"
-year="$(date +%Y)"
-mysqldump -uroot -p="$1" --all-databases --opt > backup.sql
-tar -czvf "$dia-$mes-$year.tar.gz" backup.sql
+#dump and zip backup of mysql databases
+mysqldump -u root -p"$1" --all-databases > backup.sql
+TIME=$(date +'%d-%m-%y')
+tar -czvf "$TIME".tar.gz backup.sql
