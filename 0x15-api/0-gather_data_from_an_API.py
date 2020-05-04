@@ -3,14 +3,14 @@
 """
 import json
 import requests
-import sys
+from sys import argv
 
 if __name__ == "__main__":
 
     user_id = requests.get("https://jsonplaceholder.typicode.com/users?id="
-                           + sys.argv[1])
+                           + argv[1])
     todo_id = requests.get("https://jsonplaceholder.typicode.com/todos?userId="
-                           + sys.argv[1])
+                           + argv[1])
 
     json_user = user_id.json()
     json_todo = todo_id.json()
