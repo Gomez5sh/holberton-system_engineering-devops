@@ -18,11 +18,14 @@ if __name__ == "__main__":
     complete_task = 0
     total_task = 0
     titles = []
-
+    file_id = ["USER_ID", "USERNAME", "TASK_COMPLETED_STATUS", "TASK_TITLE"]
     name = json_user[0]['name']
+    file_id = argv[1] + ".csv"
 
-    with open(str(argv[1])+'.csv', 'w') as f:
-        write = csv.writer(f, quoting=csv.QUOTE_ALL)
+    with open(file_id, 'w') as f:
+        write = csv.writer(f, quoting=csv.QUOTE_ALL, quotechar='"')
         for pointer in json_todo:
-            write.writerow([str(argv[1]), str(name),
-                            pointer['completed'], pointer['title']])
+            if pointer['userId'] == int(argv[1]):
+                pointer['name'] = name
+                write.writerow([pointer['userId'], pointer['name'],
+                                pointer['completed'], pointer['title']])
