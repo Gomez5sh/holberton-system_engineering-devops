@@ -5,9 +5,7 @@ import requests
 
 
 def number_of_subscribers(subreddit):
-    """funtion 1
-    """
-    user = {'User-agent': 'greg'}
+    user = {'User-agent': 'my-app/0.0.1'}
     fetch = requests.get('http://www.reddit.com/r/{}/about.json'
                        .format(subreddit), headers=user)
     try:
