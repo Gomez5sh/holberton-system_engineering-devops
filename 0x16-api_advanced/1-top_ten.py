@@ -9,7 +9,7 @@ def top_ten(subreddit):
     try:
         user = {'user-agent': 'my-app/0.0.1'}
         fetch = requests.get('http://www.reddit.com/r/{}/hot.json'
-                             .format(subreddit), headers=user_agent)
+                             .format(subreddit), headers=user)
         data_x = fetch.json()
 
         for x in range(10):
