@@ -19,7 +19,7 @@
                     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ~~~
 
-# holbertonschool higher level programming 
+# System engineering & DevOps
 DevOps is an acronym for development and operations, which refers to a software development methodology that focuses on communication, 
 collaboration and integration between software developers and information technology (IT) systems professionals".
 
