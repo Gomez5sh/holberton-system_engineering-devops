@@ -28,7 +28,7 @@ collaboration and integration between software developers and information techno
 - Bash
 - Scripting
 - Scripting
--  Web stack
+- Web stack
 - Security 
 - On call 
 - CI/CD
